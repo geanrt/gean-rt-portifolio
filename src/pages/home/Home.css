@@ -1,0 +1,144 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  margin: 0 0 150px;
+  position: relative;
+  z-index: 10;
+}
+
+.home_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+.home_bg_circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: rgb(255,179,179);
+background: linear-gradient(143deg, rgba(255,179,179,1) 2%, rgba(100,150,241,1) 46%, rgba(193,93,255,1) 100%);
+
+  position: absolute;
+}
+.home_bg_circle_01 {
+  right: 0;
+  top: -200px;
+  width: 500px;
+  height: 500px;
+}
+.home_apresentaion_video_card {
+  padding: 20px;
+}
+
+.home_bg_grade {
+  position: absolute;
+  width: 150px;
+  height: 250px;
+}
+.home_bg_grade img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(90%);
+}
+.home_bg_grade_01 {
+  right: 0;
+  top: 300px;
+}
+
+.home_bg_footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: -100px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: none;
+}
+.home_bg_footer_lrow {
+  flex: 1;
+  height: 15px;
+  background: rgb(49, 50, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(49, 50, 62, 0) 0%,
+    rgba(28, 85, 133, 0.3671098188920454) 14%,
+    rgba(33, 146, 188, 1) 51%,
+    rgb(64, 5, 94) 100%
+  );
+}
+.home_bg_footer_circle {
+  width: 50px;
+  height: 50px;
+  background: rgb(0, 255, 171);
+  background: linear-gradient(
+    146deg,
+    rgba(0, 255, 171, 1) 20%,
+    rgba(89, 71, 247, 1) 64%,
+    rgba(152, 67, 207, 1) 100%
+  );
+  border-radius: 50%;
+}
+.home_bg_footer_rrow {
+  flex: 1;
+  height: 15px;
+  background: rgb(49, 50, 62);
+  background: linear-gradient(
+    260deg,
+    rgba(49, 50, 62, 0) 0%,
+    rgba(28, 85, 133, 0.3671098188920454) 14%,
+    rgba(33, 146, 188, 1) 51%,
+    rgb(64, 5, 94) 100%
+  );
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 700px) {
+  .home h2,
+  .home h3 {
+    line-height: 100%;
+  }
+  .home h2 {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .home_bg_circle_02,
+  .home_bg_circle_03 {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .home_bg_grade {
+    width: 150px;
+    height: 200px;
+  }
+  .home_bg_grade img {
+    filter: blur(2px);
+  }
+  .home_bg_footer {
+    display: flex;
+  }
+  .home_about{
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .home_about{
+    font-size: 17px;
+  }
+  .home_about p{
+    letter-spacing: 2px;
+  }
+  .home_bg_circle {
+    filter: blur(3px);
+  }
+}
+
+.teste .Caption{
+  display: none;
+}

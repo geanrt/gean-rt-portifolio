@@ -1,0 +1,461 @@
+{
+  "header": {
+    "br": {
+      "projects": "Github",
+      "about": "Sobre",
+      "contact": "Contato"
+    },
+    "en": {
+      "projects": "Github",
+      "about": "About",
+      "contact": "Contact"
+    }
+  },
+  "footer": {
+    "br": {
+      "contact": {
+        "title": "Ficou com dúvidas?",
+        "button": "Contato"
+      },
+      "brand": {
+        "title": "marca",
+        "about": "sobre"
+      },
+      "follow": {
+        "title": "siga-nos"
+      }
+    },
+    "en": {
+      "contact": {
+        "title": "Do you have any questions?",
+        "button": "Contact"
+      },
+      "brand": {
+        "title": "brand",
+        "about": "about"
+      },
+      "follow": {
+        "title": "follow us"
+      }
+    }
+  },
+  "about": {
+    "br": {
+      "title": "Sobre",
+      "paragraph": "Bem-vindo ao Voepa Bitcoin, sua fonte completa para tudo relacionado ao universo das criptomoedas. Como um dos principais canais de YouTube sobre criptos no Brasil, O Vô Epaminondas, também conhecido como Voepa, é um educador digital. Com 6 anos de dedicação, ele oferece conteúdo educacional e divulgação das criptomoedas em plataformas como YouTube e Cos TV.",
+      "paragraphs": [
+        {
+          "title": "Explorando Nossas Comunidades",
+          "paragraph": "Junte-se a nós em nossa comunidade ativa e tenha suas dúvidas respondidas por especialistas. Nosso Grupo Oficial oferece suporte 24 horas, enquanto nossos vídeos no YouTube, somando mais de 2 mil, proporcionam aprendizado constante. Siga-nos no Instagram para atualizações em tempo real."
+        },
+        {
+          "title": "Bitcoin Sem Segredo",
+          "paragraph": "Desvende os segredos das criptomoedas com nosso abrangente curso, Bitcoin Sem Segredo. Desde fundamentos de investimento até análises gráficas, segurança e muito mais. Seja parte de nossa Área de Membros e desbloqueie benefícios exclusivos, como selos de fidelidade, acesso a cursos e até hardware wallet."
+        },
+        {
+          "title": "Parceiros de Confiança",
+          "paragraph": "Contamos com parceiros de renome, como Nuls, Cos TV e One Key, para enriquecer sua jornada cripto. Explore nosso mercado de NFTs exclusivos e ganhe hardware wallet, acesso a cursos, e até aportes lucrativos mensais."
+        },
+        {
+          "title": "Siga-nos para Ficar Atualizado",
+          "paragraph": "Siga o Voepa Bitcoin no Instagram, YouTube, Cos TV, Telegram e Twitter para ficar atualizado sobre o mundo das criptomoedas e suas incríveis oportunidades."
+        }
+      ],
+      "link": {
+        "text": "Descubra mais em ",
+        "textlink": "nosso canal"
+      }
+    },
+    "en": {
+      "title": "About",
+      "paragraph": "Welcome to Voepa Bitcoin, your one-stop source for everything cryptocurrency-related. As one of Brazil's leading cryptocurrency YouTube channels, Vô Epaminondas, also known as Voepa, is a digital educator. 6 years of dedication, he offers educational content and dissemination of cryptocurrencies on platforms such as YouTube and Cos TV.",
+      "paragraphs": [
+        {
+          "title": "Exploring Our Communities",
+          "paragraph": "Join us in our active community and have your questions answered by experts. Our Official Group offers 24/7 support, while our YouTube videos, numbering over 2,000, provide constant learning. Follow us on Instagram for real-time updates."
+        },
+        {
+          "title": "Bitcoin No Secret",
+          "paragraph": "Unlock the secrets of cryptocurrencies with our comprehensive course, Bitcoin Sem Segredo. From investment fundamentals to graphical analysis, security and much more. Be part of our Members Area and unlock exclusive benefits such as loyalty badges, access to courses and even hardware wallet."
+        },
+        {
+          "title": "Trusted Partners",
+          "paragraph": "We rely on renowned partners such as Nuls, Cos TV and One Key to enrich your crypto journey. Explore our exclusive NFT market and gain hardware wallet, access to courses, and even lucrative monthly contributions."
+        },
+        {
+          "title": "Follow Us to Stay Updated",
+          "paragraph": "Follow Voepa Bitcoin on Instagram, YouTube, Cos TV, Telegram and Twitter to stay up to date on the world of cryptocurrencies and its incredible opportunities."
+        }
+      ],
+      "link": {
+        "text": "Discover more at ",
+        "textlink": "our channel"
+      }
+    }
+  },
+  "missing": {
+    "br": {
+      "title": "opss, houve um erro.",
+      "subtitle": "Página não encontrada",
+      "button": "Voltar"
+    },
+    "en": {
+      "title": "opss, there was an error.",
+      "subtitle": "Page not found",
+      "button": "Back"
+    }
+  },
+  "shortly": {
+    "br": {
+      "title": "Em breve",
+      "button": "Voltar"
+    },
+    "en": {
+      "title": "Coming Soon",
+      "button": "Back"
+    }
+  },
+
+  "aprensatation": {
+    "br": {
+      "title": ["Designer", "& Dev", "Full Stack", "Full Stack"],
+      "description": "Antes de continuar, caso se interesse poderá clicar aqui e ver meu repositório no Github...",
+      "button": "Ver repositório"
+    },
+    "en": {
+      "title": ["Designer", "& Dev", "Full Stack", "Full Stack"],
+      "description": "Before continuing, if you are interested you can click here and see my repository on Github...",
+      "button": "View repository"
+    }
+  },
+  "main": {
+    "br": {
+      "title": "Quem sou eu?",
+      "name": "Gean Rt",
+      "job": "desenvolvedor",
+      "description": "Sou designer e desenvolvedor Full Stack atuando no mercado desde 2020. Atualmente, estou trabalhando principalmente com React Js e Node JS, focado em criar soluções digitais criativas e funcionais.",
+      "carddesc": "Principal"
+    },
+    "en": {
+      "title": "Who am I?",
+      "name": "Gean Rt",
+      "job": "developer",
+      "description": "I'm a Full Stack designer and developer working in the market since 2020. Currently, I'm working mainly with React Js and Node JS, focused on creating creative and functional digital solutions.",
+      "carddesc": "Main"
+    }
+  },
+  "community": {
+    "br": {
+      "title": "Perfis publicos",
+      "description": "Aqui você pode entrar em contato comigo e acompanhar projetos",
+      "links": {
+        "github": {
+          "title": "GitHub",
+          "description": "Histórico de dev"
+        },
+        "linkedin": {
+          "title": "linkedIn",
+          "description": "Perfil de networking"
+        },
+        "instagram": {
+          "title": "Instagram",
+          "description": "Atualizações de projetos"
+        }
+      }
+    },
+    "en": {
+      "title": "Public profiles",
+      "description": "Here you can contact me and follow projects",
+      "links": {
+        "github": {
+          "title": "GitHub",
+          "description": "Development history"
+        },
+        "linkedin": {
+          "title": "linkedIn",
+          "description": "Networking profile"
+        },
+        "instagram": {
+          "title": "Instagram",
+          "description": "Project updates"
+        }
+      }
+    }
+  },
+  "designer": {
+    "br": {
+      "sectionTitle":"Conhecendo meu Trabalho",
+      "title": "Web Dev",
+      "description": "Nessa área eu me torno responsável por projetar, elaborar e otimizar sua aplicação, desde o UX/UI Design até a impletação da regra de negócio.",
+      "button": "Detalhes",
+      "list": [
+        "Escolha do design",
+        "Criação e otimização de mídias",
+        "Responsividade e fluidez",
+        "Regra de negócio e sistema",
+        "Teste de segurança e usabilidade"
+      ],
+      "carddesc": "Habilidade"
+    },
+    "en": {
+      "sectionTitle":"Getting to know my work",
+      "title": "Web Dev",
+      "description": "In this area I am responsible for designing, developing and optimizing your application, from UX/UI Design to business rule implementation.",
+      "button": "Details",
+      "list": [
+        "Design choice",
+        "Media creation and optimization",
+        "Responsiveness and fluidity",
+        "Business rule and system",
+        "Security and usability testing"
+      ],
+      "carddesc": "Ability"
+    }
+  },
+  "skills": {
+    "br": {
+      "title": "Habilidades",
+      "subtitle": "Como eu posso te ajudar?",
+      "button": "Mais",
+      "list": [
+        "Desenvolvimento de sites",
+        "Criação de landing pages",
+        "Desenvolvimento de sistemas",
+        "APIs e Serviços",
+        "Implementação em Node.js",
+        "Testes de segurança",
+        "Otimização de sistemas",
+        "Refatoração de código",
+        "Otimização de mídia",
+        "Criação de ferramentas",
+        "Criação de extensões",
+        "Organização de dados"
+      ]
+    },
+    "en": {
+      "title": "Skills",
+      "subtitle": "How can I help you?",
+      "button": "More",
+      "list": [
+        "Website development",
+        "Landing page creation",
+        "Systems development",
+        "APIs and Services",
+        "Implementation in Node.js",
+        "Security Tests",
+        "Systems optimization",
+        "Code refactoring",
+        "Media Optimization",
+        "Tool creation",
+        "Creating extensions",
+        "Data organization"
+      ]
+    }
+  },
+  "nfts": {
+    "br": {
+      "title": "Coleção de NFTs",
+      "description": "Ao adquirir nossos NFTs exclusivos, você ganha acesso a benefícios exclusivos dentro de nossa comunidade",
+      "carddesc": "Produtos",
+      "button": "Acessar",
+      "list": [
+        "Ganhe hardware Wallet para criptomoedas.",
+        "Acesso ilimitado a cursos e atualizações.",
+        "Participe do Discord exclusivo.",
+        "Receba 5% aportes lucro mensal.",
+        "Parcelamento no cartão disponível.",
+        "Unidades limitadas, aja rápido!"
+      ]
+    },
+    "en": {
+      "title": "NFT Collection",
+      "description": "By purchasing our exclusive NFTs, you gain access to exclusive benefits within our community",
+      "carddesc": "Products",
+      "button": "Access",
+      "list": [
+        "Win Wallet hardware for cryptocurrencies.",
+        "Unlimited access to courses and updates.",
+        "Join the exclusive Discord.",
+        "Receive 5% monthly profit contributions.",
+        "Installment on card available.",
+        "Limited units, act fast!"
+      ]
+    }
+  },
+  "instagram": {
+    "br": {
+      "title": "Nosso Instagram",
+      "description": "Acesse os mais diversos temas sobre criptomoedas",
+      "button": "Seguir",
+      "list": [
+        "Siga-nos para aprender tudo sobre criptomoedas e investimentos",
+        "Receba as últimas noticias do universo cripto",
+        "Proteja-se com as melhores dicas de segurança",
+        "Descubra oportunidades de investimentos",
+        "Conheça o universo do holding"
+      ],
+      "carddesc": "Social"
+    },
+    "en": {
+      "title": "Our Instagram",
+      "description": "Access the most diverse topics about cryptocurrencies",
+      "button": "Follow",
+      "list": [
+        "Follow us to learn everything about cryptocurrencies and investments",
+        "Receive the latest news from the crypto universe",
+        "Protect yourself with the best security tips",
+        "Discover investment opportunities",
+        "Get to know the holding universe"
+      ],
+      "carddesc": "Social"
+    }
+  },
+  "cryptos": {
+    "br": {
+      "title": "Assista no Youtube",
+      "bitcoin": {
+        "title": "Bitcoin",
+        "description": "Conhecendo o Bitcoin",
+        "linksTitle": "Informações",
+        "links": [
+          {
+            "title": "O que é o Bitcoin?",
+            "description": "youtube"
+          },
+          {
+            "title": "Mais",
+            "description": "youtube"
+          },
+          {
+            "title": "Outros",
+            "description": "youtube"
+          }
+        ]
+      }
+    },
+    "en": {
+      "title": "Watch on Youtube",
+      "bitcoin": {
+        "title": "Bitcoin",
+        "description": "Getting to know Bitcoin",
+        "linksTitle": "Information",
+        "links": [
+          {
+            "title": "What is Bitcoin?",
+            "description": "youtube"
+          },
+          {
+            "title": "More",
+            "description": "youtube"
+          },
+          {
+            "title": "Other",
+            "description": "youtube"
+          }
+        ]
+      }
+    }
+  },
+  "playlists": {
+    "br": {
+      "title": "Playlists em destaque",
+      "listtitles": [
+        "Carteira sem segredo",
+        "Conhecendo as criptomoedas",
+        "Cos",
+        "Curso bitcoin do zero",
+        "Epacast",
+        "Vídeos novos"
+      ]
+    },
+    "en": {
+      "title": "Featured Playlists",
+      "listtitles": [
+        "Wallet without secret",
+        "Knowing cryptos",
+        "Cos",
+        "Bitcoin course from scratch",
+        "Epacast",
+        "New videos"
+      ]
+    }
+  },
+  "youtube": {
+    "br": {
+      "title": "Canal no Youtube",
+      "description": "Acesse os mais diversos conteúdos em vídeo",
+      "button": "Conferir",
+      "list": [
+        "Aprenda a gerenciar suas finanças de forma eficaz",
+        "Descubra as últimas oportunidades no mercado de criptomoedas",
+        "Saiba como o holding de criptomoedas pode gerar lucros a longo prazo",
+        "Esteja atualizado com análises regulares do mercado de criptomoedas",
+        "Junte-se a uma comunidade para compartilhar conhecimento e experiências"
+      ],
+      "carddesc": "Social"
+    },
+    "en": {
+      "title": "Youtube Channel",
+      "description": "Access the most diverse video content",
+      "button": "Check",
+      "list": [
+        "Learn to manage your finances effectively",
+        "Discover the latest opportunities in the cryptocurrency market",
+        "Learn How Holding Cryptocurrencies Can Generate Long-Term Profits",
+        "Stay up to date with regular cryptocurrency market reviews",
+        "Join a community to share knowledge and experiences"
+      ],
+      "carddesc": "Social"
+    }
+  },
+  "sponsorship": {
+    "br": {
+      "title": "Nossos Parceiros",
+      "button": "Conhecer",
+      "list": {
+        "nuls": "O NULS é uma moeda virtual (criptomoeda) negociada de forma on-line que permite pagamentos através de transações sem intermediários, com um baixo custo e de forma segura.",
+        "costv": "A COS.TV é uma plataforma de vídeos descentralizada. A proposta do site é garantir que produtores de conteúdos possam sempre ter uma audiência significativa, e isso é possível graças aos mecanismos de interação do próprio site.",
+        "onekey": "A OneKey é uma carteira de criptomoedas de código aberto, com a confiança de milhões de usuários. Ela garante segurança ao armazenar, enviar e receber ativos de forma direta, sem intermediários."
+      }
+    },
+    "en": {
+      "title": "Our Partners",
+      "button": "Learn more",
+      "list": {
+        "nuls": "NULS is a virtual currency (cryptocurrency) traded online that allows payments through transactions without intermediaries, at a low cost and in a secure way.",
+        "costv": "COS.TV is a decentralized video platform. The site's purpose is to ensure that content producers can always have a significant audience, and this is possible thanks to the site's own interaction mechanisms.",
+        "onekey": "OneKey is an open source cryptocurrency wallet trusted by millions of users. It guarantees security by storing, sending and receiving assets directly, without intermediaries."
+      }
+    }
+  },
+  "finals": {
+    "br": [
+      {
+        "title": "Explorando o Ecossistema Cripto com Voepa Bitcoin",
+        "parag": "Adentre o emocionante universo das criptomoedas junto ao Voepa Bitcoin, sua fonte definitiva de informações e descobertas. Voepa, também conhecido como Vô Epaminondas, é um verdadeiro guia no cenário digital brasileiro, acumulando seis anos de dedicação à disseminação de conhecimento sobre criptomoedas por meio de plataformas como o YouTube e a Cos TV."
+      },
+      {
+        "title": "Conexão Ativa com a Comunidade Cripto",
+        "parag": "Faça parte da nossa comunidada e tenha suas dúvidas respondidas por todos os membros. O Grupo Oficial oferece suporte ininterrupto, enquanto nossa biblioteca de vídeos no YouTube, contando com mais de 2 mil vídeos, proporciona uma jornada de aprendizado constante."
+      },
+      {
+        "title": "Dominando o Universo Cripto com Bitcoin Sem Segredo",
+        "parag": "Descubra os mistérios das criptomoedas por meio de nosso abrangente programa, Bitcoin Sem Segredo. Desde os fundamentos de investimento até análises gráficas e medidas de segurança, nosso curso aborda todos os aspectos. Junte-se à Área de Membros para ter acesso a vantagens exclusivas, como distintivos de fidelidade, cursos avançados e até mesmo uma carteira de hardware para guardar com segurança suas criptomoedas. Todos o links estão logo abaixo."
+      }
+    ],
+    "en": [
+      {
+        "title": "Exploring the Crypto Ecosystem with Voepa Bitcoin",
+        "parag": "Enter the exciting universe of cryptocurrencies with Voepa Bitcoin, your definitive source of information and discoveries. Voepa, also known as Vô Epaminondas, is a true guide in the Brazilian digital scene, accumulating six years of dedication to the dissemination of knowledge about cryptocurrencies through platforms such as YouTube and Cos TV."
+      },
+      {
+        "title": "Active Connection with the Crypto Community",
+        "parag": "Be part of our community and have your questions answered by all members. The Official Group offers uninterrupted support, while our video library on YouTube, with more than 2 thousand videos, provides a constant learning journey."
+      },
+      {
+        "title": "Dominating the Crypto Universe with No Secrecy Bitcoin",
+        "parag": "Discover the mysteries of cryptocurrencies through our comprehensive program, Bitcoin Sem Segredo. From investment fundamentals to graphical analysis and security measures, our course covers every aspect. Join the Members Area to have access to exclusive perks such as loyalty badges, advanced courses and even a hardware wallet to safely store your cryptocurrencies. All links are just below."
+      }
+    ]
+  }
+}

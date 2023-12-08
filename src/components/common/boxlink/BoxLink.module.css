@@ -1,0 +1,135 @@
+.box_link {
+  color: #fff;
+}
+.box_link_card_ct {
+  padding: 40px 20px;
+}
+.box_link_card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+.box_link_card_icon {
+  display: flex;
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.box_link_card_icon svg {
+  font-size: 30px;
+  position: relative;
+  color: #fff;
+}
+.box_link:hover .box_link_card_icon {
+  background: #3e434a;
+}
+.box_link_card_text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.box_link_card_text_title_container {
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+  width: fit-content;
+  padding-right: 30px;
+}
+.box_link_card_text_title {
+  font-weight: 600;
+
+  line-height: 20px;
+  word-break: break-all;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+.titleEllipsis {
+  padding-right: 15px;
+}
+
+.box_link_card_text_title_container svg {
+  color: #fff;
+  min-width: 30px;
+  max-width: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.ellipsis_title {
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+.box_link_card_text_desc_container {
+  height: 20px;
+  overflow: hidden;
+}
+.box_link_card_text_desc {
+  line-height: 20px;
+  word-break: break-all;
+  font-size: 17px;
+  color: #d4d7ee;
+  box-sizing: border-box;
+  position: relative;
+}
+.descEllipsis {
+  padding-right: 12px;
+}
+
+.ellipsis_text {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 400px) {
+  .box_link_card_ct {
+    padding: 20px;
+  }
+}
+@media (max-width: 260px) {
+  .box_link_card {
+    flex-direction: column;
+  }
+  .box_link_card_icon {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+  }
+  .box_link_card_icon svg {
+    font-size: 15px;
+  }
+}
+@media (max-width: 150px) {
+  .box_link_card_text {
+    display: none;
+  }
+  .box_link_card_icon {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    top: 0;
+
+    border-radius: 10px;
+  }
+  .box_link_card_icon svg {
+    font-size: 30px;
+  }
+}

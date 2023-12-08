@@ -1,0 +1,115 @@
+.home_about {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 10px;
+}
+.home_about_list {
+  display: grid;
+  grid-template:
+    "hali_0 hali_2" 1fr
+    "hali_1 hali_2" 1fr
+    /2fr 1fr;
+  gap: 20px;
+  position: relative;
+}
+.home_about_list_item {
+  display: flex;
+}
+.home_about_list_item_0 {
+  grid-area: hali_0;
+}
+.home_about_list_item_1 {
+  grid-area: hali_1;
+}
+.home_about_list_item_2 {
+  grid-area: hali_2;
+}
+
+.home_about_list_item_content {
+  padding: 20px;
+}
+
+.home_about_list_item_title {
+  font-size: 30px;
+  color: #e2e0ff;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  line-height: 100%;
+}
+
+.home_about_list_item_desc {
+  margin-bottom: 60px;
+  color: #babad9;
+  word-spacing: 4px;
+}
+.home_about_gradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background: linear-gradient(#716b6b18, #212429 );
+  border-radius: 20px;
+  position: relative;
+}
+
+/* bg circles */
+.home_about_list_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.home_about_list_bg_circle {
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -999;
+}
+.home_about_list_bg_circle1 {
+  background: rgb(0, 255, 184);
+  background: linear-gradient(
+    146deg,
+    rgba(0, 255, 184, 1) 0%,
+    rgba(134, 0, 255, 1) 81%,
+    rgba(164, 0, 255, 1) 100%
+  );
+  bottom: 10px;
+  right: 10px;
+  filter: blur(1px);
+  width: 150px;
+  height: 150px;
+}
+
+.home_about_list_bg_circle3 {
+  background: rgb(0, 255, 184);
+  background: linear-gradient(
+    146deg,
+    rgba(0, 255, 184, 1) 0%,
+    rgba(134, 0, 255, 1) 81%,
+    rgba(164, 0, 255, 1) 100%
+  );
+  bottom: 350px;
+  left: -120px;
+  filter: blur(1px);
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 1100px) {
+  .home_about_list {
+    grid-template:
+      "hali_0 " 1fr
+      "hali_1" 1fr
+      "hali_2" 1fr
+      /1fr;
+  }
+}
+@media (max-width: 600px) {
+  .home_about {
+    display: none;
+  }
+}

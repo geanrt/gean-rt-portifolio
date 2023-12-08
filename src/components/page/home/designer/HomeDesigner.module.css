@@ -1,0 +1,15 @@
+.home_designer{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.home_designer_title {
+  text-align: center;
+  font-size: 40px;
+}
+
+@media (max-width: 320px) {
+  .home_designer_title {
+    word-break: break-all;
+  }
+}

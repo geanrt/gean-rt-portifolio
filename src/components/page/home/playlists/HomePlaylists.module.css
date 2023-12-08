@@ -1,0 +1,41 @@
+.home_playlists {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+.home_playlists h3 {
+  margin: 0;
+  font-size: 40px;
+  text-align: center;
+}
+.home_playlists_list {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 250px);
+  justify-content: center;
+}
+.home_playlists_list_item{
+  max-width: 550px;
+}
+@media (max-width: 1100px) {
+  .home_playlists_list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .home_playlists_list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 450px) {
+  .home_playlists_list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 300px) {
+  .home_playlists h3 {
+    word-break: break-all;
+  }
+}

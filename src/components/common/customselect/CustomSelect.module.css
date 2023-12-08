@@ -1,0 +1,73 @@
+.custom_select{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.custom_select_image{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.custom_select_image img{
+  width: 100%;
+  height: 100%;
+  transform: scale(1.5);
+  object-fit: cover;
+}
+.custom_select_button{
+  width: fit-content;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+.custom_select_button svg{
+  font-size: 30px;
+  color: #ababab;
+}
+
+.custom_select_options{
+  flex-direction: column;
+  background-color: #373746;
+  width: 150px;
+  min-height: 150px;
+  position: absolute;
+  top: 50px;
+  right: -40%;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.266);
+  display: none;
+}
+.custom_select_options_display{
+  display: flex;
+}
+.custom_select_option{
+  width: 100%;
+  background-color: #ababab;
+  
+}
+.custom_select_option_button{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+}
+.custom_select_option_selected{
+  background-color: #19191e;
+}
+.custom_select_option_inselected{
+  background-color: #373746;
+}

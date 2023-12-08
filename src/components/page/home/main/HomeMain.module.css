@@ -1,0 +1,130 @@
+/* home_main */
+.home_main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.home_main_title {
+  text-align: center;
+  font-size: 40px;
+}
+.home_main_card_ct {
+  padding: 40px;
+}
+.home_main_card {
+  display: flex;
+  flex-direction: column;
+}
+/* .home_main_card_firs_circle {
+  background-color: rgb(58, 142, 106);
+  position: absolute;
+  top: 80px;
+  right: 100px;
+  height: 300px;
+  width: 300px;
+  filter: blur(70px);
+}
+.home_main_card_last_circle {
+  background-color: rgb(200, 0, 255);
+  position: absolute;
+  bottom: 20px;
+  right: 350px;
+  height: 100px;
+  width: 100px;
+  filter: blur(60px);
+} */
+
+.home_main_card_img {
+  position: relative;
+  width: fit-content;
+}
+.home_main_card_profile {
+  width: 100%;
+  max-width: 150px;
+}
+.home_main_card_profile img {
+  width: 100%;
+  object-fit: cover;
+}
+.home_main_card_img svg {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 50px;
+  color: rgb(255, 183, 0);
+
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.home_main_card_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+}
+.home_main_card_text * {
+  padding: 0;
+  margin: 0;
+}
+.home_main_card_text_job {
+  color: rgb(74, 73, 101);
+  font-weight: 600;
+  width: fit-content;
+}
+.home_main_card_text_bio {
+  color: #c5c8eb;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 700px) {
+  .home_main_card_last_circle,
+  .home_main_card_firs_circle {
+    display: none;
+  }
+  .home_main_card_text_job {
+    color: rgba(222, 206, 255, 0.25);
+   
+  }
+  .home_main_card_text_bio {
+    font-size: 17px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 400px) {
+  .home_main_card_ct {
+    gap: 40px;
+  }
+  .home_main_card_ct {
+    padding: 40px 20px;
+  }
+  .home_main_card_text_name {
+    font-size: 20px !important;
+  }
+  .home_main_card_text_job {
+    font-size: 15px !important;
+  }
+  .home_main_card_text_bio {
+    font-size: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .home_main_title {
+    word-break: break-all;
+  }
+}
+@media (max-width: 240px) {
+  .home_main_card_text {
+    word-break: break-all;
+  }
+  .home_main_card_img svg {
+    font-size: 15vw;
+    right: 0;
+  }
+}
+
+@media (max-width: 150px) {
+  .home_main_card_img svg {
+    display: none;
+  }
+}

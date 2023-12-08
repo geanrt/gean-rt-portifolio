@@ -1,0 +1,146 @@
+
+.crypto {
+  display: flex;
+  box-sizing: border-box;
+  gap: 40px;
+  color: #c2c6e1;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+.crypto_chart_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.crypto_chart {
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 -2px 10px 2px rgb(0, 255, 179), 0 2px 10px 2px rgb(123, 0, 255);
+}
+.crypto_chart iframe {
+  border: none;
+}
+
+.crypto_info_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  gap: 40px;
+}
+.crypto_info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-items: flex-start;
+}
+.crypto_info_image {
+  min-width: 60px;
+  min-height: 60px;
+  max-width: 60px;
+  max-height: 60px;
+}
+.crypto_info_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.crypto_info_desc {
+  display: flex;
+  flex-direction: column;
+}
+.crypto_info_desc span {
+  font-weight: 600;
+  font-size: 25px;
+  color: #e6e7eb;
+}
+.crypto_info_desc p {
+  margin: 0;
+  font-size: 17px;
+}
+.crypto_actions {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  font-weight: 600;
+  color: #ffffff;
+  gap: 20px;
+}
+.crypto_actions_links {
+  display: grid;
+  gap: 20px;
+  grid-template:
+    "link1 link1" min-content
+    "link2 link3" min-content
+    / 1fr 1fr;
+}
+.crypto_actions_link_0 {
+  grid-area: link1;
+}
+.crypto_actions_link_1 {
+  grid-area: link2;
+}
+.crypto_actions_link_2 {
+  grid-area: link3;
+}
+.crypto_actions_link_icon_yt {
+  background: rgb(137, 101, 234);
+  background: linear-gradient(
+    212deg,
+    rgba(137, 101, 234, 1) 17%,
+    rgba(255, 79, 128, 1) 62%,
+    rgba(213, 108, 100, 1) 83%
+  );
+  
+}
+/* ice cream */
+@media (max-width: 1100px) {
+  .crypto_chart {
+    border-radius: 20px;
+  }
+  .crypto {
+    flex-direction: column;
+    align-items: center;
+  }
+  .crypto_chart_container, .crypto_info_container {
+    width: 100%;
+    /* max-width: 800px; */
+  }
+  .crypto_actions_links {
+    grid-template:
+      "link1 link2 link3" 1fr
+      / 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .crypto_actions_links {
+    grid-template:
+      "link1 link1" 1fr
+      "link2 link3" 1fr
+      / 1fr 1fr;
+  }
+  
+}
+
+@media (max-width: 450px) {
+  .crypto_actions {
+    gap: 40px;
+  }
+  .crypto_actions_links {
+    grid-template:
+      "link1" 1fr
+      "link2" 1fr
+      "link3" 1fr
+      / 1fr;
+  }
+}
+@media (max-width: 250px) {
+  .crypto_info {
+    flex-direction: column;
+  }
+}

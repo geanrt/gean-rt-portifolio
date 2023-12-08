@@ -1,0 +1,20 @@
+.about_container{
+  margin: 20px 0 60px;
+  overflow: hidden;
+}
+.about_container p{
+  margin-bottom: 60px;
+}
+.about_container p a{
+  color: #00ffa6;
+  margin-left: 5px;
+}
+
+@media (max-width: 550px) {
+  .about_container{
+    font-size: 17px;
+  }
+  .about_container p{
+    letter-spacing: 2px;
+  }
+}

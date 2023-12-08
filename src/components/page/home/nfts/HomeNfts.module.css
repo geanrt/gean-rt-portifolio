@@ -1,0 +1,233 @@
+.home_nfts {
+  display: grid;
+  gap: 40px;
+  position: relative;
+  justify-content: space-around;
+  grid-template:
+    "home_nfts_header home_nfts_list home_nfts_actions" 1fr
+    /300px 400px 200px;
+}
+.home_nfts_bg_circles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+}
+
+.home_nfts_bg_circle {
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -999;
+}
+.home_nfts_bg_circle1 {
+  background: linear-gradient(
+    146deg,
+    rgb(56, 56, 69) 0%,
+    rgb(41, 41, 47) 50%,
+    rgb(28, 28, 31) 100%
+  );
+  border: 1px solid #58607d88;
+  box-shadow: 0 5px 30px 1px #4a4e5b6e;
+
+  bottom: 100px;
+  left: 50px;
+  filter: blur(1px);
+  width: 220px;
+  height: 220px;
+  filter: opacity(0.4);
+
+}
+.home_nfts_bg_circle2 {
+  background: linear-gradient(
+    106deg,
+    rgb(56, 56, 69) 0%,
+    rgb(41, 41, 47) 50%,
+    rgb(28, 28, 31) 100%
+  );
+  border: 1px solid #58607d88;
+  box-shadow: 0 5px 30px 1px #4a4e5b6e;
+  bottom: 280px;
+  left: 250px;
+  filter: blur(1px);
+  width: 100px;
+  height: 100px;
+  filter: opacity(0.4);
+
+}
+
+/* .home_nfts_header */
+.home_nfts_header {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  grid-area: home_nfts_header;
+}
+.home_nfts_header_title {
+  line-height: 100%;
+  font-size: 40px !important;
+}
+.home_nfts_header_desc {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: #9a9db1;
+  max-width: 400px;
+}
+
+/* .home_nfts_list */
+.home_nfts_list {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 20px;
+  gap: 40px;
+  max-width: 400px;
+  grid-area: home_nfts_list;
+  box-sizing: border-box;
+}
+.home_nfts_list_item {
+  color: rgb(215, 218, 227);
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  gap: 10px;
+}
+.home_nfts_list_item svg {
+  font-size: 20px;
+  min-width: 20px;
+  padding-top: 2px;
+  color: rgb(174, 255, 241);
+}
+
+/* .home_nfts_actions  */
+.home_nfts_actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  grid-area: home_nfts_actions;
+  align-items: center;
+}
+.home_nfts_actions_images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+.home_nfts_actions_image {
+  max-width: 300px;
+  max-height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.home_nfts_actions_image img {
+  width: 100%;
+  object-fit: cover;
+}
+.home_nfts_actions_link {
+  background: rgb(161, 65, 203);
+  background: linear-gradient(
+    118deg,
+    rgba(161, 65, 203, 1) 9%,
+    rgba(65, 183, 203, 1) 78%,
+    rgba(0, 255, 166, 1) 100%
+  );
+  border: 1px solid #fff;
+  box-shadow: 2px 2px 10px 1px #0b0c0dbf, -2px -2px 10px 1px #898e9245;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: 0.25s;
+}
+.home_nfts_actions_link svg {
+  font-size: 25px;
+}
+
+.home_nfts_actions_link:hover {
+  border: 1px solid #49504c;
+  box-shadow: none;
+  box-shadow: 0 1px 5px 1px #6200ff7b;
+  text-shadow: 2px 0 5px #fff;
+}
+
+@media (max-width: 1100px) {
+  .home_nfts {
+    grid-template:
+      "home_nfts_header home_nfts_list" 1fr
+      "home_nfts_actions home_nfts_actions" min-content
+      / 1fr 2fr;
+    justify-content: center;
+  }
+  .home_nfts_list {
+    max-width: none;
+  }
+  .home_nfts_actions_images {
+    flex-direction: row;
+  }
+  .home_nfts_actions_image {
+    max-width: none;
+    max-height: 300px;
+  }
+  .home_nfts_actions_link {
+    max-width: 300px;
+  }
+}
+@media (max-width: 700px) {
+  .home_nfts {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .home_nfts_header {
+    text-align: center;
+    max-width: none;
+    gap: 20px;
+    flex: 1;
+    align-items: center;
+  }
+  .home_nfts_header_title {
+    margin: 0;
+    text-align: center;
+  }
+  .home_nfts_header_desc {
+    text-align: center;
+    max-width: 600px;
+  }
+  .home_nfts_list_container {
+    max-width: none;
+  }
+  .home_nfts_list {
+    width: 100%;
+    max-width: 600px;
+  }
+  .home_nfts_actions {
+    width: 100%;
+  }
+  .home_nfts_actions_images {
+    display: none;
+  }
+  .home_nfts_actions_link {
+    max-width: 400px;
+  }
+}
+@media (max-width: 250px) {
+  .home_nfts {
+    word-break: break-all;
+  }
+  .home_nfts_list_item svg,
+  .home_nfts_actions_link svg {
+    display: none;
+  }
+}
