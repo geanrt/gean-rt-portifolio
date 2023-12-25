@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import ProductBanner from "../../../common/productbanner/ProductBanner";
 import smartphoneDesigner from "../../../../assets/images/smartphone-designer.webp";
+import logo from "../../../../assets/images/logo.webp";
 import {useEffect, useState} from "react";
 import {useSelector} from "react-redux";
 
@@ -29,6 +30,7 @@ const HomeDesigner = () => {
         linktext={text?.button}
         img={smartphoneDesigner}
         list={listDetails}
+        logo={logo}
       />
     </section>
   );
